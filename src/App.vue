@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <SphereView />
+    <CanvasView />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SphereView from './components/SphereView.vue'
+import CanvasView from './components/CanvasView.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SphereView,
+    CanvasView
   }
 }
 </script>
